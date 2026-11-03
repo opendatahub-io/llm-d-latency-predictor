@@ -1,4 +1,4 @@
-ARG BASE_IMAGE=quay.io/aipcc/base-images/cpu:3.5.0@sha256:1459233907bdcfe4fdb4f9a8d39de861bacd868d7a1e5cee083ddd46f93c306d
+ARG BASE_IMAGE=quay.io/aipcc/base-images/cpu-torch2.11-el9.8:1793124073@sha256:4dd0ef061ae5073c1d3e80722f045832f0354bd7a30bd9ca8e0a89041955592b
 FROM ${BASE_IMAGE}
 
 COPY requirements-konflux.txt ./
